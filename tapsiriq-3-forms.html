@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Formu oldugu kimi doldurun</h1>
+    <hr color="red">
+    <h3>Istifadeci melumatlari</h3>
+    <form>
+<p>
+Istifadeci adi:  <input type="text" name="ad" placeholder="Adinizi daxil edin" required>
+</p>
+<p>
+Istifadeci soyadi: <input type="text" name="soyad" placeholder="Soyadinizi daxil edin" required>    
+</p>
+<p> 
+ Dogum tarixi: <input type="date"required>   
+</p>
+<p>
+ Emailinizi daxil edin <input type="email" name="email" placeholder="Emailiniz daxil edin" required>  
+</p>
+<p>
+Parol daxil edin <input type="password" style="margin: 0cqi;" placeholder="Parolunuzu daxil edin"required>    
+</p>
+<p>
+Cinsiyyet: <br>
+Kisi <input type="radio" name="cinsiyyet">
+Qadin<input type="radio" name="cinsiyyet">    
+</p>
+<p>
+ Seher: <br>
+ <select>
+    <option value="Baki">Baki</option>
+    <option value="Lankaran">Lankaran</option>
+    <option value="Ganca">Ganca</option>
+    <option value="Sumqayit">Sumqayit</option>
+ </select>   
+</p>
+<p>
+ Size gonderilen imtahan tarixi: <br>
+<input type="datetime-local" required>   
+</p>
+<p>
+ Odenis qebzini gonderin: <br>
+ <input type="image" src="img/qebz2.png" width="100">   
+</p>
+<input type="submit" value="Gonder">
+<input type="reset" value="Temizle">
+    </form>
+</body>
+</html>
